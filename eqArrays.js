@@ -1,10 +1,17 @@
 const eqArrays = function(actual, expected) {
-  for (let i = 0; i < actual.length; i++) {
-    if (actual[i] !== expected[i]) {
+  if (actual.length === expected.length) {
+    let isEqual = true;
+    for (let i = 0; i < actual.length; i++) {
+      if (actual[i] !== expected[i]) {
+        isEqual = false;
+      }
+    }
+    if (isEqual) {
+      return true;
+    } else {
       return false;
     }
-  } 
-  return true;
+  }
 };
 
 module.exports = eqArrays;
