@@ -1,6 +1,6 @@
-const eqArrays = function(actual, eactualpected) {
+const eqArrays = function(actual, expected) {
   for (let i = 0; i < actual.length; i++) {
-    if (actual[i] !== eactualpected[i]) {
+    if (actual[i] !== expected[i]) {
       return false;
     }
   } 
