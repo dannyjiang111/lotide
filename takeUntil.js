@@ -6,3 +6,5 @@ const takeUntil = function(array, callback) {
   });
   return array;
 };
+
+module.exports = takeUntil;
