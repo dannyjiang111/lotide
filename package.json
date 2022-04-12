@@ -3,7 +3,7 @@
     "chai": "^4.3.6",
     "mocha": "^9.2.2"
   },
-  "name": "lotide",
+  "name": "@dannyjiang111/lotide",
   "version": "1.0.0",
   "main": "assertArraysEqual.js",
   "directories": {
@@ -100,7 +100,7 @@
     "type": "git",
     "url": "git+https://github.com/dannyjiang111/lotide.git"
   },
-  "author": "",
+  "author": "Danny Jiang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dannyjiang111/lotide/issues"
